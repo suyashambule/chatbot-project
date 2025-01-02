@@ -1,0 +1,349 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Is anyone there?",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Greetings! What do you need assistance with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Don't hesitate to come back if you have more questions.",
+        "Take care! Looking forward to assisting you again."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "I appreciate it",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "You're welcome! If you need anything else, feel free to ask.",
+        "No problem! I'm here to help.",
+        "Glad to assist you! Let me know if you have more questions."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "What payment methods do you accept?",
+        "How can I pay?",
+        "Can I pay with a credit card?",
+        "What are my payment options?",
+        "Do you accept PayPal?"
+      ],
+      "responses": [
+        "We accept various payment methods including credit cards, PayPal, and bank transfers.",
+        "You can pay with a credit card, PayPal, or bank transfer.",
+        "Yes, we accept credit cards and PayPal as payment methods."
+      ]
+    },
+    {
+      "tag": "travel_inquiry",
+      "patterns": [
+        "Can I rent a car?",
+        "I need to rent a vehicle",
+        "Are there any cars for rent?",
+        "I'd like to book a rental car",
+        "Vehicle rental options"
+      ],
+      "responses": [
+        "We offer several car rental options. Please provide your location and dates for availability.",
+        "I can help with your car rental. Where and when do you need the vehicle?",
+        "Let me assist you in booking a rental car. Please provide your requirements."
+      ]
+    },
+    {
+      "tag": "pet_care",
+      "patterns": [
+        "How do I take care of my dog?",
+        "Pet care tips",
+        "What should I feed my cat?",
+        "How do I groom my pet?",
+        "Pet grooming advice"
+      ],
+      "responses": [
+        "For dog care, regular walks, balanced diet, and proper grooming are key. Consult your vet for specific needs.",
+        "Feed your cat a balanced diet, ensure fresh water, and groom regularly. Contact a vet for more guidance.",
+        "Grooming your pet regularly and providing a nutritious diet is essential. If in doubt, consult a pet care expert."
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "What are the latest football scores?",
+        "Tell me about the NBA",
+        "Who's winning the cricket match?",
+        "Sports news",
+        "Can you update me on sports?"
+      ],
+      "responses": [
+        "I recommend checking a sports news site for real-time scores and updates.",
+        "For the latest sports updates, please visit a trusted sports news source.",
+        "I'm unable to fetch live sports data. Please check a reliable app for real-time scores."
+      ]
+    },
+    {
+      "tag": "movie_recommendations",
+      "patterns": [
+        "Recommend a good movie",
+        "What's a great film to watch?",
+        "Movie suggestions?",
+        "Can you suggest a film?",
+        "I need a movie recommendation"
+      ],
+      "responses": [
+        "How about watching a classic like 'Inception' or 'The Dark Knight'? What genre do you like?",
+        "For action, I suggest 'Mad Max: Fury Road'. For drama, try 'The Pursuit of Happyness'.",
+        "If you're into sci-fi, 'Interstellar' is a must-watch. Let me know your favorite genre."
+      ]
+    },
+    {
+      "tag": "book_recommendations",
+      "patterns": [
+        "Can you recommend a book?",
+        "What book should I read?",
+        "I'm looking for book suggestions",
+        "Suggest a good book",
+        "What are the best books to read?"
+      ],
+      "responses": [
+        "For fiction, I recommend 'The Alchemist'. For non-fiction, try 'Sapiens: A Brief History of Humankind'.",
+        "How about 'To Kill a Mockingbird'? If you prefer non-fiction, 'Atomic Habits' is a great read.",
+        "If you're into mystery, try 'Gone Girl'. For fantasy, 'Harry Potter' never disappoints."
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "How can I study better?",
+        "Study tips?",
+        "What are the best study techniques?",
+        "Help me with studying",
+        "Tips for effective learning"
+      ],
+      "responses": [
+        "Break your study time into focused intervals and take short breaks. Consistency is key.",
+        "Using spaced repetition and active recall are excellent ways to retain information.",
+        "Create a study schedule, use flashcards, and try teaching concepts to others for better understanding."
+      ]
+    },
+    {
+      "tag": "investment_advice",
+      "patterns": [
+        "How should I invest my money?",
+        "Investment tips",
+        "Can you give me investment advice?",
+        "How do I start investing?",
+        "Where should I invest?"
+      ],
+      "responses": [
+        "For beginners, consider starting with mutual funds or ETFs. Make sure to diversify your portfolio.",
+        "It's important to assess your risk tolerance and financial goals before investing. Consulting a financial advisor is recommended.",
+        "I recommend starting small, diversifying, and focusing on long-term investments. For specific advice, consult a financial professional."
+      ]
+    },
+    {
+      "tag": "job_hunting",
+      "patterns": [
+        "Can you help me find a job?",
+        "I need job search tips",
+        "What are some job-hunting strategies?",
+        "How do I prepare for a job interview?",
+        "Tips for finding a new job"
+      ],
+      "responses": [
+        "Start by updating your resume and networking within your industry. Using LinkedIn can help with job hunting.",
+        "Tailor your resume to each job you apply for and practice common interview questions to prepare.",
+        "Check job boards, network, and customize your cover letter for each application."
+      ]
+    },
+    {
+      "tag": "fitness_tips",
+      "patterns": [
+        "How can I get fit?",
+        "Fitness tips",
+        "What exercises should I do?",
+        "How do I start working out?",
+        "Advice for losing weight"
+      ],
+      "responses": [
+        "Start with simple exercises like walking or bodyweight workouts, and gradually increase intensity.",
+        "Consistency is key! Incorporate both cardio and strength training in your routine.",
+        "Try a balanced mix of strength training and cardio, along with a healthy diet. Consult a fitness expert for a personalized plan."
+      ]
+    },
+    {
+      "tag": "recipes",
+      "patterns": [
+        "Can you suggest a recipe?",
+        "What should I cook for dinner?",
+        "I need a dinner recipe",
+        "Can you give me some cooking ideas?",
+        "What's an easy meal to make?"
+      ],
+      "responses": [
+        "How about making pasta with marinara sauce? It's quick and delicious!",
+        "For dinner, you can try grilled chicken with vegetables. It’s healthy and easy to prepare.",
+        "Try a stir-fry! You can use chicken, tofu, or beef with veggies for a simple, tasty meal."
+      ]
+    },
+    {
+      "tag": "vacation_ideas",
+      "patterns": [
+        "Where should I go on vacation?",
+        "Vacation ideas?",
+        "Can you recommend a holiday destination?",
+        "What are good travel spots?",
+        "Help me plan my vacation"
+      ],
+      "responses": [
+        "For a relaxing vacation, you could visit Bali or the Maldives. For adventure, consider Costa Rica or New Zealand.",
+        "If you're looking for cultural experiences, try visiting Kyoto or Rome. For nature, the Swiss Alps are great.",
+        "How about a beach holiday in Hawaii or an exploration trip to Iceland?"
+      ]
+    },
+    {
+      "tag": "language_learning",
+      "patterns": [
+        "How can I learn a new language?",
+        "Tips for learning a language?",
+        "Help me learn a language",
+        "Best ways to learn a language?",
+        "Can you give language learning advice?"
+      ],
+      "responses": [
+        "Try using apps like Duolingo or Babbel. Consistency and practice with native speakers are important.",
+        "Immerse yourself in the language by watching shows, reading books, and speaking with others.",
+        "Start with the basics and practice daily. Joining language exchange groups is also a great way to improve."
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "I'm feeling stressed",
+        "Can you help with anxiety?",
+        "I need mental health tips",
+        "How do I manage stress?",
+        "What can I do for my mental well-being?"
+      ],
+      "responses": [
+        "Practice mindfulness and meditation to manage stress. Regular exercise also helps improve mental health.",
+        "It's important to talk about your feelings. Consider speaking with a therapist or counselor for professional help.",
+        "Engage in activities you enjoy, and don't hesitate to reach out to friends or family for support."
+      ]
+    },
+    {
+      "tag": "home_improvement",
+      "patterns": [
+        "How can I improve my home?",
+        "Home renovation tips",
+        "I need advice on home improvement",
+        "What are some DIY home projects?",
+        "How do I enhance my living space?"
+      ],
+      "responses": [
+        "Consider painting your walls for a fresh look or rearranging furniture to optimize space.",
+        "Simple DIY projects like adding shelves or new lighting can greatly enhance your home.",
+        "Invest in plants or art to make your space feel more inviting."
+      ]
+    },
+    {
+      "tag": "childcare",
+      "patterns": [
+        "How do I take care of my baby?",
+        "Childcare tips?",
+        "Can you help with baby care?",
+        "I need advice on taking care of a child",
+        "Tips for new parents?"
+      ],
+      "responses": [
+        "Make sure your baby gets plenty of rest, regular feeding, and cuddles. Contact your pediatrician for specific concerns.",
+        "Consistency and routine are important for childcare. Ensure they get nutritious food and enough sleep.",
+        "Always monitor your baby's health, ensure they're on a regular sleep and feeding schedule, and consult your doctor for advice."
+      ]
+    },
+    {
+      "tag": "exercise_at_home",
+      "patterns": [
+        "How can I exercise at home?",
+        "Home workout ideas?",
+        "What are good at-home exercises?",
+        "Can I work out without equipment?",
+        "How do I stay fit without going to the gym?"
+      ],
+      "responses": [
+        "Bodyweight exercises like squats, lunges, push-ups, and planks are great for home workouts.",
+        "You can use resistance bands or household items like water bottles for added resistance in your exercises.",
+        "Try high-intensity interval training (HIIT) workouts or follow online fitness videos for guidance."
+      ]
+    },
+    {
+      "tag": "home_organization",
+      "patterns": [
+        "How do I organize my home?",
+        "Home organization tips?",
+        "Help me declutter",
+        "How do I keep my house tidy?",
+        "Advice for organizing my space?"
+      ],
+      "responses": [
+        "Start by decluttering one room at a time. Use storage bins and label them to stay organized.",
+        "Regularly clean and organize your space by setting aside a few minutes each day to tidy up.",
+        "Declutter by keeping only what you need and use regularly. Invest in storage solutions to stay organized."
+      ]
+    },
+    {
+      "tag": "cooking_help",
+      "patterns": [
+        "How do I cook pasta?",
+        "Can you help me cook?",
+        "Cooking advice?",
+        "I need help in the kitchen",
+        "Tips for cooking better"
+      ],
+      "responses": [
+        "Boil water, add salt, and cook pasta for 8-10 minutes until al dente. Check the package for specific instructions.",
+        "Always read the recipe before you start cooking. Prep all your ingredients in advance.",
+        "Seasoning food properly and not overcooking it are key to better results. Experiment with different herbs and spices!"
+      ]
+    },
+    {
+      "tag": "resume_tips",
+      "patterns": [
+        "How do I write a good resume?",
+        "Resume writing tips?",
+        "Help me with my resume",
+        "What should I include in my CV?",
+        "Can you help with a resume?"
+      ],
+      "responses": [
+        "sujal tuzaya aai chi gand"
+
+      ]
+    }
+  ]
+}
